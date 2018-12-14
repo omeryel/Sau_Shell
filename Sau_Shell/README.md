@@ -1,6 +1,6 @@
 ﻿SAU SHELL
 Sau Shell,Sakarya Üniversitesi öğrencileri tarafından Linux system üzerinde çalışan C programlama dili ile yazılan komut satırı istemcisidir.
-Komut Satırı Ne Yapar?
+Komut Satırı Ne Yapar?\n
 Komut girildiğinde aşağıdakileri yapar:
 • Komut girildiğinde komut uzunluğu “NULL” değilse işleme sokar.
 • Komut satırındaki ögeleri kelimelere ayrıştırır.
