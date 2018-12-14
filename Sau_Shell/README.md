@@ -1,14 +1,14 @@
-﻿SAU SHELL
-Sau Shell,Sakarya Üniversitesi öğrencileri tarafından Linux system üzerinde çalışan C programlama dili ile yazılan komut satırı istemcisidir.
-Komut Satırı Ne Yapar?\n
-Komut girildiğinde aşağıdakileri yapar:
-• Komut girildiğinde komut uzunluğu “NULL” değilse işleme sokar.
-• Komut satırındaki ögeleri kelimelere ayrıştırır.
-• Özel karakterleri(‘ | ’,’ < ’,’ > ’,vb.) kontrol eder.
-• Varsayılan olarak kabul edilen komutları(‘ cd ’,’ yardim ’,’ cik ’,’ sil ’) kontrol eder.
-• Eğer pipe(boru) işlemi varsa boru işlemini yürütür.
-• Sistem komutları ve kütüphaneler çocuk işlem oluşturularak ve execvp fonksiyonu çağrılarak koşturur.
-Komut Satırı Uygulaması
+﻿SAU SHELL<br />
+Sau Shell,Sakarya Üniversitesi öğrencileri tarafından Linux system üzerinde çalışan C programlama dili ile yazılan komut satırı istemcisidir.<br />
+Komut Satırı Ne Yapar?<br />
+Komut girildiğinde aşağıdakileri yapar:<br />
+• Komut girildiğinde komut uzunluğu “NULL” değilse işleme sokar.<br />
+• Komut satırındaki ögeleri kelimelere ayrıştırır.<br />
+• Özel karakterleri(‘ | ’,’ < ’,’ > ’,vb.) kontrol eder.<br />
+• Varsayılan olarak kabul edilen komutları(‘ cd ’,’ yardim ’,’ cik ’,’ sil ’) kontrol eder.<br />
+• Eğer pipe(boru) işlemi varsa boru işlemini yürütür.<br />
+• Sistem komutları ve kütüphaneler çocuk işlem oluşturularak ve execvp fonksiyonu çağrılarak koşturur.<br />
+Komut Satırı Uygulaması<br />
 • Komut satırının açıldığı dosya yolunu  “getcwd”  fonksiyonu ile ekrana basar.
 • Komut satırını kullanan o anki kullanıcı adını “getenv(‘USER’)” fonksiyonu ile ekrana basar.
 • Satırdaki ögeleri kelimelerine  “strsep(“”)” fonksiyonu kullanarak ayırır.Fonksiyon ögeleri boşluklara balarak ayırır.Ayrıca sıfır uzunluktaki ögeleri(“NULL”) almaz.
